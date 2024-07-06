@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile Card | Md Jahidul Islam</title>
+	<style type="text/css"> 
+		body, h1, h2, p {
+			margin: 0;
+			padding: 0;
+		}
+		a{
+			text-decoration: none;
+		}
+		html, body {
+			height: 100%;
+			font-family: Arial, sans-serif;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			
+		}
+
+		/* profile card */
+		.profile-card {
+			background: #ffffff;
+			border-radius: 15px;
+			box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+			max-width: 400px;
+			width: 100%;
+			padding: 20px;
+			text-align: center;
+			background-color: #f0f0f0;
+		}
+
+		/* Profile Image */
+		.profile-image img{
+			width:150px;
+			height:150px;
+			border-radius: 50%;
+			margin-bottom: 25px;
+		}
+
+		/* Profile  Content */
+		.profile-content{
+			margin-bottom: 30px;
+		}
+		.profile-content h1 {
+			font-size: 24px;
+			color: #123d80;
+			margin-bottom: 8px;
+		}
+
+		.profile-content h2 {
+			font-size: 18px;
+			color: #3885aa;
+			margin-bottom: 20px;
+		}
+
+		.profile-content p {
+			font-size: 16px;
+			color: #555555;
+			line-height: 1.5;
+			margin-bottom: 10px;
+		}
+		.profile-content h5 {
+			font-size: 16px;
+			color: #586580;
+			font-weight: 600;
+			margin: 6px 0;
+		}
+	
+		/* Profile info */
+		.profile-info{
+			overflow: hidden;
+		}
+		.project, .following, .followers{
+			width: 33%;
+			float: left;
+			overflow: hidden;
+		}
+		.project p, .following p, .followers p{
+			margin-bottom: 0;
+		}		
+		.project h4, .following h4, .followers h4{
+			font-size: 22px;
+			font-weight: 700;
+			margin-top: 7px;
+			color: #2b2b2b;
+		}
+
+		/* Profile Link */
+		.profile-link{
+			display: block;
+			margin-bottom: 20px;
+			margin-top: 20px;
+		}
+		.btn{
+			padding: 10px 30px;
+			border: 1px solid #000;
+			border-radius: 5px;
+			color:#000;
+			font-weight: 600;
+		}
+		.btn:hover{
+			background-color: #000;
+			color:#FFF;
+		}
+		.btn-left{
+			margin-right: 13px;
+		}
+		
+	</style>
+</head>
+<body>
+    <div class="profile-card">
+		<div class="profile-image">
+			<img src="profile.png" alt="Jahid">
+		</div>
+
+	        <div class="profile-content">
+	            <h1>Md Jahidul Islam</h1>
+	            <h2>Web Developer</h2>
+	            <p>Hello! I'm Jahidul Islam, a passionate web developer with a knack for creating elegant and efficient web applications. Let's build something amazing together!</p>
+				<h5>Email: gmj.islam@gmail.com</h5>
+	            <h5>Mobile: +8801715-467178</h5>
+	        </div>
+		
+		<div class="profile-info"> 
+			<div class="project">
+				<p>Projects</p>
+				<h4>0</h4>
+			</div>
+			<div class="following">
+				<p>Following</p>
+				<h4>17</h4>
+			</div>
+			<div class="followers">
+				<p>Followers</p>
+				<h4>1280</h4>
+			</div>
+		</div>
+
+		<div class="profile-link">
+			<a href="https://www.facebook.com/gmj.islam.fb/"class="btn btn-left">Follow</a>
+			<a href="https://www.facebook.com/gmj.islam.fb/" class="btn btn-right">Here Me</a>
+		</div>
+
+    </div>
+</body>
+</html>
